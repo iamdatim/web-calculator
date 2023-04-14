@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="active-state.css">
+    <title>Calculator</title>
+</head>
+<body>
+
+    <div id="container" class="con">
+        <!-- <button id="toggle-btn" class="toggler">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" id="svg-moon" class="bi bi-moon-fill" viewBox="0 0 16 16">
+            <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+          </svg>
+        </button> -->
+        
+        <input type="text" id="result-preview">
+        <textarea id="calculator-preview" cols="40" rows="7"></textarea>
+        
+        <div id="inputs">
+            <!-- <span id="result">0</span> -->
+            
+            <div id="first-row">
+                <button id="number-7" class="num" onclick="display('7')">7</button>
+                <button id="number-8" class="num" onclick="display('8')">8</button>
+                <button id="number-9" class="num" onclick="display('9')">9</button>
+                <button id="operator-ac" class="num" onclick="display('C')">c</button>
+            </div>
+
+            <div id="second-row">
+                <button id="number-4" onclick="display('4')">4</button>
+                <button id="number-5" onclick="display('5')">5</button>
+                <button id="number-6" onclick="display('6')">6</button>
+                <button id="operator-multiply" onclick="display('*')">x</button>
+            </div>
+
+            <div id="third-row">
+                <button id="number-1" onclick="display('1')">1</button>
+                <button id="number-2" onclick="display('2')">2</button>
+                <button id="number-3" onclick="display('3')">3</button>
+                <button id="operator-addition" onclick="display('+')">+</button>
+            </div>
+            
+            <div id="forth-row">
+                <button id="number-0" onclick="display('0')">0</button>
+                <button id="number-dot" onclick="display('.')">.</button>
+                <button id="operator-subtraction" onclick="display('-')">-</button>
+                <button id="operator-division" onclick="display('/')">/</button>
+            </div>
+            
+            <div id="fifth-row">
+                <button id="number-open-bracket" onclick="display('(')">(</button>
+                <button id="number-close-bracket" onclick="display(')')">)</button>
+                <button id="operator-delete" onclick="display('')">del</button>
+                <button id="operator-equals" onclick="displaySolve()">=</button>
+                <!-- <div id="operator-equals"><span id="equals">=</span></div> -->
+            </div>
+
+        </div>
+        
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

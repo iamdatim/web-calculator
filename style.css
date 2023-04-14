@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+}
+
+body{
+    background-color: white;
+}
+
+#container{
+    height: 89vh;
+    width: 23rem;
+    background-color: white;
+    border-radius: 20px;
+    border-width:7px;
+    border-style: solid;
+    border-color: rgb(152, 169, 255);
+    margin: 0 auto;
+    margin-top: 2rem;
+    box-sizing: border-box;
+    box-shadow: 0 0 30px #000;
+}
+
+#toggle-btn{
+    background-color: orange;
+    border: none;
+    border-radius: 100%;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+.dark-theme{
+    background-color: white;
+}
+
+#svg-moon{
+    background-color: transparent;
+}
+
+#result-preview{
+    background-color: rgb(152, 169, 255);;
+    /* display: flex; */
+    justify-content: end;
+    /* font-size: 70px; */
+    display: flex;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: right;
+    height: 3rem !important;
+    width: 95%;
+    /* margin-bottom: -0.5rem; */
+    /* padding-top: 9rem; */
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+#calculator-preview{
+    background-color: rgb(152, 169, 255);;
+    color: black;
+    width: 95%;
+    height: 6rem;
+    border: none;
+    outline: none;
+    font-size: 40px;
+    text-align: right;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 0.7rem;
+    border-radius: 10px;
+    /* overflow-y: hidden; */
+    resize: none;
+}
+
+#result{
+    background-color: white;
+    display: flex;
+    justify-content: end;
+    font-size: 70px;
+    padding-top: 5rem;
+}
+
+#operator-subtraction, #number-dot, #number-0, #number-1, 
+#number-2, #number-3, #number-4, #number-5, 
+#number-6, #number-7, #number-8, #number-9{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 100%;
+    background-color: rgb(215, 215, 215);
+    color: white;
+    font-size: 30px;
+    border: none;
+    margin: 0 auto;
+    margin-top: 0.7rem;
+    /* margin-right: 0.5rem; */
+    /* margin-left: 0.5rem; */
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 0 5px #000;
+}
+
+#number-open-bracket, #number-close-bracket, #operator-delete{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 100%;
+    background-color: rgb(152, 169, 255);
+    color: white;
+    font-size: 30px;
+    border: none;
+    margin: 0 auto;
+    margin-top: 0.7rem;
+    /* margin-right: 0.5rem; */
+    /* margin-left: 0.5rem; */
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 0 5px #000;
+}
+
+ #operator-equals{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 100%;
+    background-color: rgb(152, 169, 255);
+    color: white;
+    font-size: 30px;
+    border: none;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 0 5px #000;
+     
+}
+
+
+#operator-ac, #operator-multiply, #operator-addition, #operator-division, #operator-equals{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 100%;
+    background-color: rgb(152, 169, 255);
+    color: white;
+    font-size: 30px;
+    border: none;
+    margin: 0 auto;
+    margin-top: 6px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 0 5px #000;
+}
+
+
+
+/* .char-input{
+ 
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: -0.5rem;
+    color: white;
+    background-color: transparent;
+    font-size: 30px;
+    
+} */
+
+/* #cancel, #equals{
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: -0.6rem;
+    color: white;
+    background-color: transparent;
+    font-size: 30px;
+} */
+
+#inputs{
+    background-color: white;
+    border-radius: 20px;
+  
+}
+
+#first-row, #second-row, #third-row, #forth-row, #fifth-row{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+
+
